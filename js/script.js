@@ -1,7 +1,7 @@
 // récupérer le infos du formulaires
 
 document.addEventListener("DOMContentLoaded", () => {
-  //console.log("loaded");
+  console.log("loaded");
   document
     .getElementById("contact-form")
     .addEventListener("submit", async (event) => {
@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
         message: document.getElementById("message").value,
       };
 
-      //console.log(data);
+      console.log(data);
 
       //envoyer les données avec axios
-      //const result = await axios.post("http://localhost:3000/send-data", data);
+      const result = await axios.post("http://localhost:3000/send-data", data);
 
-      //console.log(result.data);
+      console.log(result.data);
     });
 });
