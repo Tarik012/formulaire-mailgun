@@ -1,0 +1,56 @@
+body {
+  background-color: #7359dc;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+}
+
+button {
+  color: white;
+  background-color: #7359dc;
+  border-radius: 10px;
+  height: 30px;
+  box-shadow: 10px 5px 5px black;
+}
+
+label {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 25px;
+}
+
+textarea {
+  border-radius: 10px;
+  resize: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formulaire {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
